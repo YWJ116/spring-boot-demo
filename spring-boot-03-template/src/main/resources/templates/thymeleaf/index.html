@@ -1,0 +1,30 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--    <head lang="en" >-->
+<!--        <meta charset="UTF-8">-->
+<!--        <title></title>-->
+<!--    </head>-->
+<!--    <body>-->
+<!--&lt;!&ndash;    Hi FreeMarker. 现在时间是  ${now}&ndash;&gt;-->
+<!--&lt;!&ndash;    <br>&ndash;&gt;-->
+<!--&lt;!&ndash;    ${"Hi FreeMarker. 现在时间是  ${now}"}&ndash;&gt;-->
+<!--&lt;!&ndash;    <br>&ndash;&gt;-->
+<!--&lt;!&ndash;    ${name};&ndash;&gt;-->
+<!--&lt;!&ndash;    &ndash;&gt;-->
+
+<!--    <p th:text="${restaurant.boss}">restaurant boss</p>-->
+<!--    <p th:text="${restaurant.chef}">restaurant chef</p>-->
+<!--    </body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <body>
+<!--        <p th:text="${restaurant.boss}">restaurant boss</p>-->
+<!--        <p th:text="${restaurant.chef}">restaurant chef</p>-->
+        <div th:object="${restaurant}">
+            <p>Name: <span th:text="*{boss}">Sebastian</span>.</p>
+            <p>Surname: <span th:text="${chef}">Pepper</span>.</p>
+            <p>Nationality: <span th:text="*{nationality}">Saturn</span>.</p>
+        </div>
+    </body>
+</html>
