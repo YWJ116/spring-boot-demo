@@ -1,0 +1,23 @@
+server:
+  port: 8090
+food:
+  meat: 烤肉
+  rice: 拌饭
+  sauce:
+    - 咖喱
+    - 蜜汁
+    - 原味
+
+jasypt:
+  encryptor:
+    password: 123456!@#
+
+info:
+  username: ENC(/meRJbsKr9IzC43ky3QjWw==)
+  password: ENC(Dfpko2NvFqS+jlGk7kKbvw==)
+
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+
