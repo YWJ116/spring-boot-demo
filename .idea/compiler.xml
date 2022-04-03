@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-01-demo" />
         <module name="spring-boot-02-demo" />
+        <module name="spring-boot-04-web-restful" />
         <module name="spring-boot-03-template" />
       </profile>
     </annotationProcessing>
@@ -16,11 +17,13 @@
       <module name="spring-boot-01-demo" target="1.6" />
       <module name="spring-boot-02-demo" target="1.6" />
       <module name="spring-boot-03-template" target="1.8" />
+      <module name="spring-boot-04-web-restful" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-03-template" options="-parameters" />
+      <module name="spring-boot-04-web-restful" options="-parameters" />
     </option>
   </component>
 </project>

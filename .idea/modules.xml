@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-01-demo/spring-boot-01-demo.iml" filepath="$PROJECT_DIR$/spring-boot-01-demo/spring-boot-01-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-02-demo/spring-boot-02-demo.iml" filepath="$PROJECT_DIR$/spring-boot-02-demo/spring-boot-02-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-04-web-restful/spring-boot-04-web-restful.iml" filepath="$PROJECT_DIR$/spring-boot-04-web-restful/spring-boot-04-web-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-demo.iml" />
     </modules>
   </component>
