@@ -1,9 +1,14 @@
 package com.duyi.bean;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-@Getter@Setter
+/**
+ * 实体类 代表嘉宾
+ */
+@Data @AllArgsConstructor
 public class Guest {
 
+    private String name;
+    private String role;
 }
